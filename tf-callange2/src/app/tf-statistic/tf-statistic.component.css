@@ -1,0 +1,69 @@
+.fullscreen {
+    width: 1900px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    zoom: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.navBar {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background-color: #555;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.navBar p {
+    margin: 0 20px;
+}
+
+.navBarRight {
+    display: flex;
+    height: 60vh;
+    justify-content: flex-end;
+    height: auto;
+    align-items: center;
+}
+
+.navBarLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.card-section {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    background-color: #555;
+    padding-top: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.card-col-section {
+    width: 31%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+th {
+    color: #c0c0c0;
+}
+
+th,
+td {
+    text-align: center;
+}
