@@ -1,0 +1,8 @@
+<div class="circle-container">
+  <div class="box" #dropBox></div>
+    <div class="circle" *ngFor="let circle of circles; let i = index" cdkDrag (cdkDragEnded)="dragEnded($event, i)" [style.transform]="'translateX('+circle.position.x+'px) translateY('+circle.position.y+'px)'">
+      <p>{{ circle.text }}</p>
+    </div>
+  </div>
+
+
